@@ -1,0 +1,9 @@
+rf -rm .git
+.gitignore
+mv file1 file2
+rm file
+git log -p
+"git.scm.com"
+git log
+git log -p -2
+git commit --amend
