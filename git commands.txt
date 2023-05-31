@@ -12,3 +12,7 @@ git checkout -- filename   ("to restore a file to its latest commit, works only 
 git checkout -f  ("to restore all files to latest commit, works only for unstaged files")
 git push -u origin master   ("for pushing a repository to git hub")
 git config --global alias.newfilename filename
+
+
+BRANCHING  :-
+git checkout -b branchname
