@@ -1,9 +1,12 @@
 rf -rm .git
 .gitignore
-mv file1 file2
-rm file
+mv filename1 filename2
+rm filename
 git log -p
 "git.scm.com"
 git log
 git log -p -2
 git commit --amend
+git restore --staged filename   ("to unstage")
+git checkout -- filename   ("to restore a file to its latest commit, works only for unstaged files")
+git checkout -f  ("to restore all files to latest commit, works only for unstaged files")
